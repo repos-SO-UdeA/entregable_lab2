@@ -2,7 +2,7 @@
 
 ## 1. Ejercicios conceptuales
 
-**Ejercicio 1**:
+1. **Analisis de codigo**:
 
 Suponga que se tiene el siguiente vector con las siguientes direcciones:
 
@@ -49,8 +49,7 @@ Adicionalmente, llene el mapa de memoria con los nuevos valores tanto de los ele
 | p3 + 1  |   |
 | p3 - 2  |   |
 
-**Ejercicio 2**:
-El proposito del siguiente codigo es que usted refuerce el concepto de llamadas por valor y por referencia. Observe el siguiente codigo:
+2. **Analisis de codigo**: El proposito del siguiente codigo es que usted refuerce el concepto de llamadas por valor y por referencia. Observe el siguiente codigo:
 
 ```C
 int f(int x, int y, int *z);
@@ -109,7 +108,7 @@ Ahora responda las siguientes preguntas:
 | p2  |   |
 | p3  |   |
 
-4. **Analisis de codigo**: Dado el siguiente codigo fuente tomado del siguiente [enlace](https://en.wikibooks.org/wiki/C_Programming/stdio.h/getchar)
+3. **Analisis de codigo**: Dado el siguiente codigo fuente tomado del siguiente [enlace](https://en.wikibooks.org/wiki/C_Programming/stdio.h/getchar)
 
 ```C
 #include <stdio.h>
