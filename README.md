@@ -2,7 +2,7 @@
 
 ## 1. Ejercicios conceptuales
 
-1. **Analisis de codigo**:
+**Ejercicio 1 - Analisis de codigo**:
 
 Suponga que se tiene el siguiente vector con las siguientes direcciones:
 
@@ -24,7 +24,7 @@ p2 = p3 + 2;
 ```
 
 1. Dibuje el mapa de memoria asociado al problema anterior.
-2  Despues de que se ejecuta el codigo anterior: Actualice el vector con los nuevos valores después de la ejecución del código anteriormente mostrado (**Nota**: no olvide resaltar el lugar apundado por los apuntadores):
+2.  Despues de que se ejecuta el codigo anterior: Actualice el vector con los nuevos valores después de la ejecución del código anteriormente mostrado (**Nota**: no olvide resaltar el lugar apundado por los apuntadores):
 
 ![imagen2](./imagenes/ejercicio1_vfin.png)
 **Figura 2**. Contenido del vector del ejercicio 1 despues de la ejecucion del codigo (Llenar).
@@ -49,7 +49,9 @@ Adicionalmente, llene el mapa de memoria con los nuevos valores tanto de los ele
 | p3 + 1  |   |
 | p3 - 2  |   |
 
-2. **Analisis de codigo**: El proposito del siguiente codigo es que usted refuerce el concepto de llamadas por valor y por referencia. Observe el siguiente codigo:
+**Ejercicio 2 - Analisis de codigo**:
+
+El proposito del siguiente codigo es que usted refuerce el concepto de llamadas por valor y por referencia. Observe el siguiente codigo:
 
 ```C
 int f(int x, int y, int *z);
@@ -108,7 +110,8 @@ Ahora responda las siguientes preguntas:
 | p2  |   |
 | p3  |   |
 
-3. **Analisis de codigo**: Dado el siguiente codigo fuente tomado del siguiente [enlace](https://en.wikibooks.org/wiki/C_Programming/stdio.h/getchar)
+**Ejercicio 3 - Analisis de codigo**: 
+Dado el siguiente codigo fuente tomado del siguiente [enlace](https://en.wikibooks.org/wiki/C_Programming/stdio.h/getchar)
 
 ```C
 #include <stdio.h>
@@ -154,7 +157,7 @@ Responda las siguientes preguntas:
 
 Para cada uno de los ejercicio de programacion propuestos a continuacion, realice la respectiva funcion de test para probar el correcto funcionamiento de lo que se pide en el ejercicio.
 
-1. **Problema de programación**: Hacer que barra una cadena de caracteres en busca de un caracter especifico. La funcion deberá retornar el numero de veces que aparece este caracter o -1 en caso de que no este. La forma de la funcion se muestra a continuación:
+**Ejercicio 1 - Problema de programación**: Hacer que barra una cadena de caracteres en busca de un caracter especifico. La funcion deberá retornar el numero de veces que aparece este caracter o -1 en caso de que no este. La forma de la funcion se muestra a continuación:
 
 ```C
 /**
@@ -169,7 +172,7 @@ int contarCaracter(char *array, char ch) {
 }
 ```
 
-2. **Problema de programación**: Hacer una funcion que permita que un usuario obtenga el subindice asociado a la primera aparicion de un caracter en un array. Si el caracter no esta la función debera retornar -1. Haga uso de la funcion del punto 1 para validar la presencia del caracter. A continuacion se muestra la forma de la función:
+**Ejercicio 2 - Problema de programación**: Hacer una funcion que permita que un usuario obtenga el subindice asociado a la primera aparicion de un caracter en un array. Si el caracter no esta la función debera retornar -1. Haga uso de la funcion del punto 1 para validar la presencia del caracter. A continuacion se muestra la forma de la función:
 
 ```C
 /**
@@ -186,7 +189,7 @@ int obtenerIndice(char *array, char ch) {
 
 Para clarificar un poco la cosa, si por ejemplo la cadena es **hola: que mas** y el caracter a buscar es **:** la funcion debera retornar **4**. Por otro lado, si el caracter a buscar es la **a**, la funcion retornara **3**. Finalmente, si el caracter ingresado es **z** la funcion retornara **-1**.
 
-3. **Problema de programación**: Obtener la subcadena de una cadena dada a partir de un subindice siguiendo la siguiente funcion.
+**Ejercicio 3 - Problema de programación**: Obtener la subcadena de una cadena dada a partir de un subindice siguiendo la siguiente funcion.
 
 ```C
 /**
@@ -210,7 +213,7 @@ printf("%s\n",p1);    // Imprime: Hola que tal
 printf("%s\n",p2);    // Imprime: que tal
 ```
 
-5. **Problema de programación**: Codifique un programa que permita convertir en mayuscula una cadena de caracteres ingresada por teclado y solo terminara su ejecución cuando el usuario emplee la combinación de teclas . Por ejemplo si la entrada del programa es:
+**Ejercicio 4 - Problema de programación**: Codifique un programa que permita convertir en mayuscula una cadena de caracteres ingresada por teclado y solo terminara su ejecución cuando el usuario emplee la combinación de teclas . Por ejemplo si la entrada del programa es:
 
 ```
 1234abcdABCD!
@@ -427,9 +430,9 @@ Entrada > sisaz
 SISAZ
 Entrada > ^C
 ```
-6. **Problema de programación**: Dado un vector x de n elementos reales, donde n es impar, diseñar una función que calcule y devuelva la mediana de ese vector. La mediana es el valor tal que la mitad de los números son mayores que el valor y la otra mitad son menores. Escribir un programa que compruebe la función.
+**Ejercicio 5 - Problema de programación**: Dado un vector x de n elementos reales, donde n es impar, diseñar una función que calcule y devuelva la mediana de ese vector. La mediana es el valor tal que la mitad de los números son mayores que el valor y la otra mitad son menores. Escribir un programa que compruebe la función.
 
-7. **Problema de programación**: Se trata de resolver el siguiente problema escolar. Dadas las notas de los alumnos de un colegio en el primer curso de bachillerato, en las diferentes asignaturas (5, por comodidad), se trata de calcular la media de cada alumno, la media de cada asignatura, la media total de la clase y ordenar los alumnos por orden decreciente de notas medias individuales.
+**Ejercicio 6 - Problema de programación**: Se trata de resolver el siguiente problema escolar. Dadas las notas de los alumnos de un colegio en el primer curso de bachillerato, en las diferentes asignaturas (5, por comodidad), se trata de calcular la media de cada alumno, la media de cada asignatura, la media total de la clase y ordenar los alumnos por orden decreciente de notas medias individuales.
 
 **Nota**: utilizar como algoritmo de ordenación el método Shell.
 
